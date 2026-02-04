@@ -1,0 +1,6 @@
+{
+  "name": "vercel-skills",
+  "version": "1.0.0",
+  "description": "React/Next.js best practices from Vercel Engineering (auto-update via submodule)",
+  "skills": "./skills/"
+}

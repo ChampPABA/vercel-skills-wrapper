@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "vercel-skills",
+      "source": "./",
+      "description": "React/Next.js best practices from Vercel Engineering"
+    }
+  ]
+}
