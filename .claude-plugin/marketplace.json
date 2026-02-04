@@ -1,9 +1,25 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vercel-skills-wrapper",
+  "description": "Auto-updating wrapper for vercel-labs/agent-skills",
+  "owner": {
+    "name": "ChampPABA",
+    "email": "aimilic@gmail.com"
+  },
+  "metadata": {
+    "description": "React/Next.js best practices from Vercel Engineering",
+    "homepage": "https://github.com/ChampPABA/vercel-skills-wrapper"
+  },
   "plugins": [
     {
       "name": "vercel-skills",
+      "version": "1.0.0",
+      "description": "React/Next.js performance optimization (40+ rules)",
       "source": "./",
-      "description": "React/Next.js best practices from Vercel Engineering"
+      "skills": [
+        "./skills/react-best-practices"
+      ],
+      "category": "development"
     }
   ]
 }
