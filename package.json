@@ -1,0 +1,9 @@
+{
+  "name": "@champpaba/vercel-skills",
+  "version": "1.0.0",
+  "description": "Wrapper for vercel-labs/agent-skills with auto-update via git submodule",
+  "files": ["skills/", "_source/"],
+  "keywords": ["claude-code", "plugin", "vercel", "react", "nextjs", "skills"],
+  "repository": "https://github.com/ChampPABA/vercel-skills-wrapper",
+  "license": "MIT"
+}
